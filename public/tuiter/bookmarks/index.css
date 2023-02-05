@@ -1,0 +1,99 @@
+#wd-bookmarks-body{
+    position: relative;
+    right:-16px;
+    top:12px;
+}
+
+#wd-bookmarks-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#wd-username{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 12px;
+    border-bottom: solid 1px rgb(110, 118, 125);
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.wd-12px-padding{
+    padding:12px;
+}
+.wd-12px-right{
+    position: relative;
+    right: -12px;
+}
+.wd-15px-bold{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.wd-15px-gray{
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-bookmark-text{
+    font-size: 15px;
+    color: white;
+    max-width: 506px;
+    padding-right:16px;
+    padding-bottom: 12px;
+}
+
+.wd-bookmark-post-info{
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    border-width: 1px;
+    overflow: hidden;
+}
+
+.wd-bookmark-img{
+    height:264px;
+    width: 504px;
+}
+
+.wd-bookmark-pfp{
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+}
+
+.wd-float-right{
+    position: relative;
+    right: -48px;
+    top: -48px;
+}
+
+.wd-interaction{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wd-like{
+    color:red;
+    font-size: 15px;
+}
+
+.wd-icon{
+    font-size: 20px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+
+.wd-interaction-padding{
+    width:25%;
+    float: left;
+    text-decoration: none;
+}
+
+.wd-post-interactions{
+    padding-top: 12px;
+    text-align: center;
+
+}
