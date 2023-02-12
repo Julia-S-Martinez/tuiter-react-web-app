@@ -1,79 +1,28 @@
+.form .fa-search{
 
-.wd-search-bar{
-    width: 80%;
-    height: 40px;
-    background: rgb(40, 40, 40);
-    color: white;
-    outline: none;
-    border: none;
-    border-radius: 30px;
-    padding: 0 2px 0 80px;
-    font-size: medium;
     position: relative;
-    right: 20px;
-}
-
-#wd-search-label{
-    position: relative;
-    left: 26px;
-    top: 12px;
+    top:-30px;
+    left: 15px;
     z-index: 1;
+
 }
 
-#wd-gear{
-    font-size: 30px;
-    color: rgb(29,161,242);
-    float: right;
-    position: relative;
-    right: 12px;
-    top: -40px;
-    text-decoration: none;
+.profile-picture{
+    object-fit: cover;
 }
 
-.wd-recommended-links{
-    padding: 16px;
-    font-size: 15px;
-    color: rgb(110, 118, 125);
-    text-decoration: none;
-    font-weight: bold;
+.image-title{
+    position: absolute;
+    top: 88%;
+    left: 5%;
+    z-index: 5;
 }
 
-#wd-for-you{
-    color: rgb(29,161,242);
-    border-bottom: solid rgb(29,161,242);
+.row{
+    margin-right: 0;
+    margin-left: 0;
 }
 
-.wd-suggested-post{
-    width: 95%;
-    height: 120px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:  rgb(47, 51, 54);
-    padding: 16px;
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-suggested-image{
-    position: relative;
-    float: right;
-    top: -60px;
-    border-radius: 10px;
-    height: 100px;
-    width: 100px;
-}
-
-.wd-suggested-emphasis{
-    font-weight: bold;
-    color: white;
-    font-size: 16px;
-}
-
-.wd-suggested-author{
-    color: white;
-}
-
-#wd-suggested-section{
-    position: relative;
-    top: 30px;
+.nav{
+    --bs-nav-link-padding-x: 0.75rem;
 }
