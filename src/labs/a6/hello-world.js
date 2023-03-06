@@ -1,4 +1,4 @@
-import Nav from "../nav";
+import Nav from "../../nav";
 function HelloWorld() {
     return(
         <div>
@@ -6,5 +6,5 @@ function HelloWorld() {
             <h1>Hello World!</h1>
         </div>
     );
-};
+}
 export default HelloWorld;
