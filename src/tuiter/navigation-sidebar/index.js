@@ -6,7 +6,7 @@ const NavigationSidebar = (
     return(<div className="list-group">
             <a className="list-group-item">Tuiter</a>
             <a className={`list-group-item
-                    ${active === '/tuiter/'?'active':''}`}
+                    ${active === '/#/tuiter/'?'active':''}`}
                href="/#/tuiter">
                  Home
             </a>
