@@ -14,7 +14,7 @@ import {Provider} from "react-redux";
 import HomeComponent from "./home";
 import {useLocation} from "react-router-dom";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer}});
 
 function Tuiter() {
     let location = useLocation();
